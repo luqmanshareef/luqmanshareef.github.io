@@ -4,46 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services - InstaTech Services</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="bg-primary text-white text-center py-4">
         <h1>InstaTech Services</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">InstaTech</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section id="services">
-            <h2>Our Services</h2>
-            <article>
-                <h3>Microservice Architecture</h3>
-                <p>Designing and implementing scalable and resilient microservices architecture.</p>
-            </article>
-            <article>
-                <h3>Cloud-Native Application Architectures</h3>
-                <p>Building cloud-native applications that leverage the full potential of cloud platforms.</p>
-            </article>
-            <article>
-                <h3>Legacy Systems Integration with AI & ML</h3>
-                <p>Integrating AI and ML capabilities into existing legacy systems to enhance their functionality.</p>
-            </article>
-            <article>
-                <h3>Creating an AI Roadmap for Businesses</h3>
-                <p>Helping businesses develop a comprehensive AI strategy to stay ahead in the market.</p>
-            </article>
-            <article>
-                <h3>Transition to AI and ML Enabled Products</h3>
-                <p>Assisting in the transition of existing software products to incorporate AI and ML features.</p>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 InstaTech Services. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+        <section id="services" class="container my-5">
+            <h2>Our Comprehensive Services</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <article class="service-box p-4 mb-4">
+                        <h3>Microservice Architecture</h3>
+                        <p>We specialize in designing and implementing scalable, resilient microservices architectures that enhance flexibility and streamline development processes.</p>
+                        <ul>
+                            <li><strong>Service Decomposition:</strong> Breaking down monolithic applications into manageable microservices.</li>
+                            <li><strong>Inter-service Communication:</strong> Establishing efficient communication protocols between services.</li>
+                            <li><strong>Service Discovery:</strong> Implementing mechanisms to allow services to discover each other dynamically.</li>
+                            <li><strong>Load Balancing:</strong> Ensuring optimal distribution of workloads across services.</li>
+                            <li><strong>Monitoring and Logging:</strong> Setting up robust monitoring and logging to maintain system health and performance.</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="service-box p-4 mb-4">
+                        <h3>Cloud-Native Application Architectures</h3>
+                        <p>Our cloud-native solutions leverage the full potential of cloud platforms, ensuring that your applications are robust, scalable, and cost-effective.</p>
+                        <ul>
+                            <li><strong>Cloud Migration:</strong> Seamlessly migrating existing applications to cloud platforms.</li>
+                            <li><strong>Containerization:</strong> Utilizing containers for consistent and portable deployment environments.</li>
+                            <li><strong>Serverless Computing:</strong> Implementing serverless architectures to reduce operational complexity and costs.</li>
+                            <li><strong>Continuous Integration/Continuous Deployment (CI/CD):</strong> Setting up CI/CD pipelines for rapid and reliable deployment.</li>
+                            <li><strong>Cloud Security:</strong> Ensuring robust security measures to protect cloud-based applications and data.</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="service-box p-4 mb-4">
+                        <h3>Legacy Systems Integration with AI & ML</h3>
+                        <p>Modernize your legacy systems by integrating advanced AI and ML capabilities. Our team ensures a seamless transition, enhancing the functionality and efficiency of your existing systems.</p>
+                        <ul>
+                            <li><strong>Data Analysis:</strong> Leveraging AI and ML to gain insights from legacy data.</li>
+                            <li><strong>Predictive Maintenance:</strong> Implementing ML models to predict and prevent system failures.</li>
+                            <li><strong>Automated Workflows:</strong> Using AI to automate and optimize business processes.</li>
+                            <li><strong>Enhanced User Experience:</strong> Integrating AI-driven features to improve user interactions and satisfaction.</li>
+                            <li><strong>Custom AI Solutions:</strong> Developing bespoke AI models tailored to your specific business needs.</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="service-box p-4 mb-4">
+                        <h3>Creating an AI Roadmap for Businesses</h3>
+                        <p>We assist businesses in developing comprehensive AI strategies tailored to their unique needs

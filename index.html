@@ -4,27 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InstaTech Services</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="bg-primary text-white text-center py-4">
         <h1>InstaTech Services</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">InstaTech</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section id="hero">
-            <h2>Your Partner in Software Architecture and AI Transformation</h2>
-            <p>We specialize in Microservice Architecture, Cloud-Native Applications, and AI & ML integration for legacy systems.</p>
+        <section id="hero" class="jumbotron text-center">
+            <div class="container">
+                <h2 class="display-4">Your Trusted Partner in Software Architecture and AI Transformation</h2>
+                <p class="lead">At InstaTech Services, we empower businesses to evolve and thrive in the digital era with cutting-edge software architecture and AI solutions. Our expertise spans across Microservice Architecture, Cloud-Native Applications, and seamless AI & ML integration for legacy systems.</p>
+            </div>
+        </section>
+        <section id="about" class="container my-5">
+            <h2>About Us</h2>
+            <p>InstaTech Services is a premier software architecture consulting firm dedicated to driving digital transformation. With a team of seasoned professionals, we offer comprehensive solutions that help businesses transition to modern architectures and leverage the power of AI and machine learning.</p>
+            <p>Our mission is to provide innovative and practical solutions that meet the unique needs of each client. We pride ourselves on our ability to deliver high-quality services that improve efficiency, scalability, and competitiveness.</p>
+        </section>
+        <section id="why-us" class="bg-light py-5">
+            <div class="container">
+                <h2>Why Choose Us?</h2>
+                <ul class="list-unstyled">
+                    <li><strong>Experienced Team:</strong> Our consultants are experts in their fields with years of industry experience.</li>
+                    <li><strong>Custom Solutions:</strong> We tailor our services to meet your specific needs and goals.</li>
+                    <li><strong>Innovative Approaches:</strong> We stay ahead of industry trends to provide the latest and most effective solutions.</li>
+                    <li><strong>Client-Centric:</strong> Your success is our priority. We work closely with you to ensure we achieve the best outcomes.</li>
+                    <li><strong>Proven Track Record:</strong> We have a history of successful projects and satisfied clients.</li>
+                </ul>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="bg-primary text-white text-center py-3">
         <p>&copy; 2024 InstaTech Services. All rights reserved.</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
